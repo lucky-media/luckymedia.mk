@@ -2,6 +2,8 @@
 title: Why do we use Figma?
 tags:
   - Figma
+  - Design
+  - Website
 date: 2020-04-25T23:48:46.181Z
 cover: /assets/images/uploads/figma.jpg
 ---
