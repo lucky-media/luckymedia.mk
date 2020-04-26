@@ -4,9 +4,8 @@ tags:
   - Figma
   - Design
   - Website
-  - Web
 date: 2020-04-25T23:48:46.181Z
-cover: /assets/images/uploads/figma.jpg
+cover: /assets/images/uploads/figmaaa.jpg
 ---
 Figma is a wonderful tool for creating professional designs. Figma helps teams to design and collaborate at the same time. There are various packages that you can choose, but the free package is great for individuals. For teams though, you will need to choose a paid package that allows team collaboration and other features.
 
