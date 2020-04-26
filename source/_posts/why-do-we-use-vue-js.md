@@ -5,6 +5,7 @@ tags:
   - vue
   - javascript
   - development
+  - js
 date: 2020-05-20T00:35:33.423Z
 cover: /assets/images/uploads/vue.jpg
 ---
