@@ -15,8 +15,8 @@ We do not imply that the following technologies are suitable for every project, 
 **The topics to be covered in this series are the following:**
 
 * [Why do we use Github?](https://www.luckymedia.dev/blog/why-do-we-use-github/)
-* Why do we use Figma?
-* Why do we use Tailwind CSS and less Bootstrap?
+* [Why do we use Figma?](https://www.luckymedia.dev/blog/why-do-we-use-figma/)
+* [Why do we use Tailwind CSS and less Bootstrap?](https://www.luckymedia.dev/blog/why-do-we-use-tailwind-css-and-less-bootstrap/)
 * Why do we use Netlify?
 * Why do we prefer static sites more than database powered ones ?
 * Why do we use Vue.js?
