@@ -6,7 +6,7 @@ tags:
   - javascript
   - development
   - js
-date: 2020-05-20T00:35:33.423Z
+date: 2020-05-18T00:35:33.423Z
 cover: /assets/images/uploads/vue.jpg
 ---
 **Vue.js** is a Javascript framework focused on building user interfaces and single-page applications (SPA). It lets you extend HTML attributes for offering more functionalities. Vue.js uses double braces {{ }} for holding the data. The Vue object is connected with the HTML element and that element changes as the Vue object changes.
