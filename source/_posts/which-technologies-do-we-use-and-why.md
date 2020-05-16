@@ -17,10 +17,10 @@ We do not imply that the following technologies are suitable for every project, 
 * [Why do we use Github?](https://www.luckymedia.dev/blog/why-do-we-use-github/)
 * [Why do we use Figma?](https://www.luckymedia.dev/blog/why-do-we-use-figma/)
 * [Why do we use Tailwind CSS and less Bootstrap?](https://www.luckymedia.dev/blog/why-do-we-use-tailwind-css-and-less-bootstrap/)
-* Why do we use Netlify?
-* Why do we prefer static sites more than database powered ones ?
-* Why do we use Vue.js?
-* Why do we use Laravel?
+* [Why do we use Netlify?](https://www.luckymedia.dev/blog/why-do-we-use-netlify/)
+* [Why do we prefer static sites more than database powered ones?](https://www.luckymedia.dev/blog/why-do-we-prefer-static-sites-more-than-database-powered-ones/)
+* [Why do we use Vue.js?](https://www.luckymedia.dev/blog/why-do-we-use-vue-js/)
+* [Why do we use Laravel?](https://www.luckymedia.dev/blog/why-do-we-use-laravel)
 * Why do we use Blade?
 * Why do we use jigsaw?
 * Why do we use Laragon?
