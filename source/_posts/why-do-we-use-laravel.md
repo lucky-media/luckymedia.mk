@@ -6,7 +6,7 @@ tags:
   - backend
   - website
 date: 2020-06-03T00:38:26.899Z
-cover: /assets/images/uploads/laravel.png
+cover: /assets/images/uploads/laravel.jpg
 ---
 **Laravel** is an amazing PHP framework that follows the MVC pattern (model-view-controller) and has many built-in features that ease the development process. It can be used for organizing the code of complex web applications and provides authentication, sessions, routing and caching. What was just a simple PHP framework, nowadays it is an entire ecosystem that offers many services such as Vapor, Forge, Tinker, Mix, Telescope, Dusk etc.
 
