@@ -5,7 +5,7 @@ tags:
   - Laravel
   - frontend
   - backend
-date: 2020-06-11T00:40:58.576Z
+date: 2020-05-24T00:40:58.576Z
 cover: /assets/images/uploads/blade.jfif
 ---
 **Blade** is a powerful templating engine that is provided by Laravel. There are also other PHP templating engines, like Twig, Smarty, Dwoo, Volt, Plates, Mustache, Latte, etc. Blade allows you to use pure PHP code beside the Blade directives. On the next post we will also explain the benefits of using Blade with Jigsaw for building powerful static sites.
