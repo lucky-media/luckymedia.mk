@@ -4,7 +4,7 @@ tags:
   - Laragon
   - Laravel
   - server
-date: 2020-06-24T00:59:23.504Z
+date: 2020-06-02T00:59:23.504Z
 cover: /assets/images/uploads/laragon.png
 ---
 Laragon is a very fast and powerful local development environment. If we need a local server for our application, we can simply use Laragon. We can use Xampp, Wamp, Docker, Vagrant, Homestead, etc.
