@@ -8,7 +8,7 @@ tags:
   - development
   - laravel
   - blade
-date: 2020-06-19T00:54:04.134Z
+date: 2020-05-28T00:54:04.134Z
 cover: /assets/images/uploads/jigsaw-banner.png
 ---
 **Jigsaw** is a framework for rapidly building static sites. Just like Laravel, it has integrated Blade. If you have already used the power of Blade and Laravel, now you can implement Blade in Jigsaw. We have already discussed static sites, tailwind css and explained Blade in previous posts. You use Jigsaw for the same reasons why you decide to build static sites.
