@@ -21,9 +21,9 @@ We do not imply that the following technologies are suitable for every project, 
 * [Why do we prefer static sites more than database powered ones?](https://www.luckymedia.dev/blog/why-do-we-prefer-static-sites-more-than-database-powered-ones/)
 * [Why do we use Vue.js?](https://www.luckymedia.dev/blog/why-do-we-use-vue-js/)
 * [Why do we use Laravel?](https://www.luckymedia.dev/blog/why-do-we-use-laravel)
-* Why do we use Blade?
-* Why do we use jigsaw?
-* Why do we use Laragon?
+* [Why do we use Blade?](https://www.luckymedia.dev/blog/why-do-we-use-blade/)
+* [Why do we use jigsaw?](https://www.luckymedia.dev/blog/why-do-we-use-jigsaw/)
+* [Why do we use Laragon?](https://www.luckymedia.dev/blog/why-do-we-use-laragon/)
 * Why do we use Forge?
 * Why don't we use Wordpress?
 
