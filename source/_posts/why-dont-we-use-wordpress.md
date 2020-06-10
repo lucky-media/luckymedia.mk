@@ -4,7 +4,7 @@ tags:
   - Wordpress
   - website
   - development
-date: 2020-07-09T01:05:44.860Z
+date: 2020-06-13T01:05:44.860Z
 cover: /assets/images/uploads/wordpress.png
 ---
 In contrast to all the previous posts of this series, this one is unique in that it shows why we don’t use Wordpress. You have probably heard about the most famous content management system (CMS) known as Wordpress. It allows users to create professional looking websites in a span of a few hours. It was meant to be used by non-developers, that’s why we don’t use it. It has a ton of free and paid plugins that help you add lots of functionalities to your website. There are many free and paid templates that you can use as a design. Or, you can use a theme builder, make a specific design by adding components and changing the layout. But then, the PHP version is changed, Wordpress needs to be updated, the themes too, and not forget the plugins. Next thing you know, your wonderful looking website has turned into a mess. But hey, you didn’t want to pay a developer to build your website.
