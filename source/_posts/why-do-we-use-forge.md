@@ -6,7 +6,7 @@ tags:
   - deployment
   - laravel
   - backend
-date: 2020-07-02T01:02:24.896Z
+date: 2020-06-10T01:02:24.896Z
 cover: /assets/images/uploads/forge.jfif
 ---
 If you visit the official Forge website you can read “Server management doesn't have to be a nightmare.” They know exactly why it was important to mention that server management is a nightmare, and it doesn’t have to be. If you have experience working with servers and managing the production environment, then you know what we are talking about. It’s mostly about losing time, because it takes much longer to manage everything on the server on your own. But, you also want to make sure that the setup is exactly as needed and there are no errors. Forge is not for free and you have three different packages to choose from.
