@@ -1,4 +1,4 @@
-<div id="services" class="container mt-32">
+<div id="services" style="scroll-margin-top: 7rem;" class="container mt-32">
     <div class="row">
         <div class="lg:col-2">
             <x-heading-sm color="black" title="What we do"></x-heading-sm>

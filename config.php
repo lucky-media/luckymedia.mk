@@ -9,7 +9,7 @@ return [
         'menu' => [
             0 => [
                 'name' => 'Home',
-                'link' => '/',
+                'link' => '/#app',
             ],
             1 => [
                 'name' => 'About us',
@@ -39,7 +39,7 @@ return [
                 'icon' => 'thunder',
                 'title' => 'Branding Strategy',
                 'desc' => 'We help brands achieve digital transformation.'
-            ],            
+            ],
             '1' => [
                 'icon' => 'window',
                 'title' => 'Web Development',

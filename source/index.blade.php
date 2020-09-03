@@ -11,9 +11,10 @@
     <div class="container mt-24 mb-32">
         <div class="row items-center">
             <div class="lg:col-5">
-                <h2 class="text-2xl lg:text-3xl xl:text-5xl leading-none">We are</h2>
-                <h1 class="text-3xl lg:text-4xl xl:text-6xl font-bold leading-normal">Lucky Media</h1>
-                <div style="width: 100px; height:6px" class="bg-blue-500 mt-4"></div>
+                <h1 class="text-4xl xl:text-5xl font-bold leading-tight">
+                Passion,<br>Commitment, <br> and Coffee.
+                </h1>
+                <span style="border-bottom-width: 6px;" class="text-xl xl:text-2xl font-bold pb-1 border-blue-500">A lot of Coffee!</span>
             </div>
             <div class="hidden lg:block lg:col-6 lg:offset-1 relative">
                 <img class="w-4/5" src="assets/images/phone.png" alt="">
@@ -25,7 +26,7 @@
 
     <img class="w-full h-auto" src="assets/images/mountain_hero.png" alt="">
 
-    <div id="about" class="bg-black">
+    <div id="about" style="scroll-margin-top: 3rem;" class="bg-black">
         <div class="container py-16">
             <div class="row justify-center">
                 <svg class="block fill-current w-12 h-12 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -51,7 +52,7 @@
                         invisible hand that pushes your company forward and ahead of your competitors. Online presence
                         is very important in the current business ecosystem and the always changing technologies.
                         While you worry about your core business, enhancing your products and services, we make sure that you have
-                        the best practices and most advanced technological setup. 
+                        the best practices and most advanced technological setup.
                         <br> <br>
                         We can design a unique website for your company that will reflect elegance, professionalism, trust and efficiency.
                         Our designers can provide you a complete corporate identity for your entire marketing needs, refreshing
