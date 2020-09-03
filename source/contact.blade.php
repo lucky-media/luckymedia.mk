@@ -19,6 +19,7 @@
                             <div class="bg-blue-500 w-5 mt-2" style="height: 2px;"></div>
                         </div>
                         <p class="mt-6 leading-loose font-medium text-sm text-gray-300">
+                            hello@luckymedia.dev <br>
                             Borce Jovanoski nr.32,<br>
                             Gostivar 1230 <br>
                             North Macedonia <br><br>
