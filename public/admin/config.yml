@@ -1,0 +1,98 @@
+backend:
+  name: github
+  repo: lucky-media/luckymedia.mk
+
+local_backend: true
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "projects"
+    label: "Projects"
+    editor:
+      preview: false
+    label_singular: "Project"
+    folder: "content/portfolio"
+    create: true
+    identifier_field: ""
+    slug: "{{slug}}"
+    extension: "md"
+    format: "yaml-frontmatter"
+    fields:
+      - {label: "Title", name: "title", required: true, widget: "string"}
+      - {label: "Client", name: "client", required: true, widget: "string"}
+      - {label: "Technologies", name: "technologies", widget: "list"}
+      - {label: "Services", name: "services", required: true, widget: "string"}
+      - {label: "Link", name: "link", widget: "string"}
+      - {label: "Date", name: "date", widget: "date"}
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "Work", value: "work" }
+          - { label: "Open Source", value: "open-source" }
+      - label: "Cover Image"
+        name: "cover"
+        widget: "image"
+        required: true
+        media_library:
+          config:
+            multiple: false
+      - label: "Project Images"
+        name: "images"
+        widget: "image"
+        required: true
+        media_library:
+          config:
+            multiple: true
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "posts"
+    label: "Posts"
+    editor:
+      preview: false
+    label_singular: "Blog"
+    folder: "content/blog"
+    create: true
+    identifier_field: ""
+    slug: "{{slug}}"
+    extension: "md"
+    format: "yaml-frontmatter"
+    fields:
+      - {label: "Title", name: "title", required: true, widget: "string"}
+      - {label: "Tags", name: "tags", required: true, widget: "list", allow_add: true}
+      - {label: "Author", name: "author", required: false, widget: "string"}
+      - {label: "Date", name: "date", widget: "date"}
+      - label: "Cover Image"
+        name: "cover"
+        widget: "image"
+        required: true
+        media_library:
+          config:
+            multiple: false
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "testimonials"
+    label: "Testimonials"
+    label_singular: "Testimonial"
+    editor:
+      preview: false
+    folder: "content/testimonials"
+    create: true
+    identifier_field: "author"
+    slug: "{{slug}}"
+    extension: "md"
+    format: "yaml-frontmatter"
+    fields:
+      - {label: "Author", name: "author", required: true, widget: "string"}
+      - {label: "Position", name: "position", widget: "string"}
+      - {label: "Link", name: "link", widget: "string"}
+      - label: "Author Image"
+        name: "img"
+        widget: "image"
+        required: true
+        media_library:
+          config:
+            multiple: false
+      - {label: "Body", name: "body", widget: "markdown"}

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:500,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+#header:before {
+    @apply .bg-white .absolute .inset-0;
+    content: '';
+    transform: translateY(-100%);
+    transition: all .4s cubic-bezier(.73,.14,.14,.78);
+}
+
+#header.isTop:before {
+    transform: translateY(0);
+    box-shadow: 0 1px 6px rgba(0,0,0,.15);
+}
+
+.menu-wrap input {
+    @apply .hidden;
+    opacity: 0;
+}
+
+.menu-wrap input + label {
+    @apply .fixed .w-10 .h-10;
+    top: 20px;
+    right: 25px;
+    z-index: 5;
+}
+
+.menu-wrap input + label span {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 45%;
+    margin-top: -1px;
+    left: 0;
+    display: block;
+    background: #000;
+    transition-property: all;
+    transition: 0.5s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-wrap input + label span:first-child {
+    top: 8px;
+}
+
+.menu-wrap input + label span:last-child {
+    top: 30px;
+}
+
+.menu-wrap label:hover {
+    cursor: pointer;
+}
+
+.menu-wrap input:checked + label span {
+    opacity: 0;
+    top: 50%;
+}
+
+.menu-wrap input:checked + label span:first-child {
+    opacity: 1;
+    background: #fff;
+    transform: rotate(405deg);
+}
+
+.menu-wrap input:checked + label span:last-child {
+    opacity: 1;
+    background: #fff;
+    transform: rotate(-405deg);
+}
+
+.menu-wrap input ~ nav {
+    @apply .overflow-hidden .fixed .top-0 .left-0 .w-full .h-0;
+    background: transparent;
+    z-index: 3;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    overflow: hidden;
+}
+
+.menu-wrap input ~ nav > ul {
+    @apply .w-full .flex .flex-col .justify-end;
+    top: 10%;
+}
+
+.menu-wrap input ~ nav > ul > li {
+    @apply .text-left .leading-none .py-6 .border-blue-500;
+    border-bottom-width: 3px;
+    opacity: 0;
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+.menu-wrap input ~ nav > ul > li > a {
+    @apply .block .no-underline .text-2xl .uppercase .text-white .font-bold;
+
+    @screen lg {
+        @apply text-6xl;
+    }
+}
+
+.menu-wrap input:checked ~ nav {
+    background: rgba(0, 0, 0, 0.95);
+    height: 100%;
+    transition-delay: 0s;
+}
+
+.menu-wrap input:checked ~ nav > ul > li {
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+.menu-wrap input:checked ~ nav label::before {
+    @apply text-white;
+}
+
+.menu-wrap input:checked ~ body {
+    @apply overflow-hidden;
+}
+
+.menu-item {
+    @apply .relative .transition-all .duration-100 .ease-in;
+}
+
+.menu-item:before {
+    @apply .bg-transparent .absolute .transition .duration-200 .ease-in;
+    content: "";
+    width: 20px;
+    height: 3px;
+    margin-top: 30px;
+}
+
+.menu-item:hover {
+    @apply .text-blue-500;
+}
+
+.menu-item:hover:before {
+    @apply .bg-blue-500;
+}
+
+.bg-skew {
+    background: linear-gradient(
+            312.56deg,
+            #f6f6f6 0.66%,
+            rgba(246, 246, 246, 0) 56.08%
+    );
+}
+
+.bg-skew-180 {
+    background: linear-gradient(
+            135deg,
+            #f6f6f6 -0.97%,
+            rgba(246, 246, 246, 0) 58.58%
+    );
+}
